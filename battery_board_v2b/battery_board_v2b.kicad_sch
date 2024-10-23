@@ -2752,186 +2752,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LT3652IMSE#PBF:LT3652IMSE#PBF"
 			(pin_names
 				(offset 0.762)
@@ -10073,12 +9893,6 @@
 		(uuid "5e1e59d1-5757-46d5-859a-19babaca85a3")
 	)
 	(junction
-		(at 518.16 218.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e497c13-f559-4cb2-b04f-8b00d580a105")
-	)
-	(junction
 		(at 142.24 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10762,7 +10576,7 @@
 	)
 	(wire
 		(pts
-			(xy 500.38 218.44) (xy 518.16 218.44)
+			(xy 500.38 218.44) (xy 504.19 218.44)
 		)
 		(stroke
 			(width 0)
@@ -10879,16 +10693,6 @@
 			(type default)
 		)
 		(uuid "07b42c27-1600-40f2-89bd-12a40620fa91")
-	)
-	(wire
-		(pts
-			(xy 518.16 208.28) (xy 518.16 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e93bab-69ba-4929-87c4-960919c3048c")
 	)
 	(wire
 		(pts
@@ -12319,16 +12123,6 @@
 			(type default)
 		)
 		(uuid "5060f5d0-04c4-4f53-9044-4f49fcf1c269")
-	)
-	(wire
-		(pts
-			(xy 518.16 227.33) (xy 518.16 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bd235c-5c31-4471-80e0-fca48625ac54")
 	)
 	(wire
 		(pts
@@ -13959,16 +13753,6 @@
 			(type default)
 		)
 		(uuid "a3c05b87-8b8e-4504-bd61-19177a0ded4a")
-	)
-	(wire
-		(pts
-			(xy 518.16 218.44) (xy 518.16 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c734e8-3b3c-474f-902b-fbb321fc56e7")
 	)
 	(wire
 		(pts
@@ -16123,7 +15907,7 @@
 	)
 	(text "Default I2C: 0x48"
 		(exclude_from_sim no)
-		(at 519.43 219.71 0)
+		(at 495.046 225.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16175,17 +15959,6 @@
 			(justify left bottom)
 		)
 		(uuid "9ed1a853-67f8-4a1e-a96d-8616a5c4c92c")
-	)
-	(text "Jumped I2C: 0x49"
-		(exclude_from_sim no)
-		(at 519.43 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1124ea2-c73b-4d58-a3d6-94fb52106d2a")
 	)
 	(text "Radio\nVDD Select"
 		(exclude_from_sim no)
@@ -20251,7 +20024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 407.416 222.504 90)
 			(effects
 				(font
@@ -22537,7 +22310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 518.16 231.14 0)
+		(at 504.19 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22545,7 +22318,7 @@
 		(dnp no)
 		(uuid "3846942e-fba6-40ba-8d98-10cd22808b35")
 		(property "Reference" "#PWR012"
-			(at 518.16 237.49 0)
+			(at 510.54 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22554,7 +22327,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 518.287 235.5342 0)
+			(at 509.27 220.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22562,7 +22335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 518.16 231.14 0)
+			(at 504.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22571,7 +22344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 518.16 231.14 0)
+			(at 504.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22580,7 +22353,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 518.16 231.14 0)
+			(at 504.19 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23103,7 +22876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 453.39 200.9648 0)
 			(effects
 				(font
@@ -23626,7 +23399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 421.3352 205.74 0)
 			(effects
 				(font
@@ -24577,7 +24350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 555.9552 215.9 0)
 			(effects
 				(font
@@ -24821,7 +24594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 504.19 195.8848 0)
 			(effects
 				(font
@@ -25027,7 +24800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 421.3352 227.33 0)
 			(effects
 				(font
@@ -26138,71 +25911,6 @@
 			(project "battery_board_v1"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
-		(at 518.16 208.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7942d9a8-35d7-4081-8d3f-6ac636520aa5")
-		(property "Reference" "#PWR011"
-			(at 518.16 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 518.541 203.8858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 518.16 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 518.16 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 518.16 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a85c8af-4aad-45ec-9289-502145e35a26")
-		)
-		(instances
-			(project "battery_board_v2b"
-				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -27809,7 +27517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 449.834 228.854 90)
 			(effects
 				(font
@@ -28369,76 +28077,6 @@
 			(project "battery_board_v1"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 518.16 214.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c4414b6-64e5-416f-a8c7-e591d6922ada")
-		(property "Reference" "JP2"
-			(at 519.811 213.7953 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 519.43 215.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 518.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 518.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 518.16 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "caa76f0f-90a7-41d6-91be-1d31a16d5a86")
-		)
-		(pin "2"
-			(uuid "527ae05f-fe75-4527-9cf1-b4a952166433")
-		)
-		(instances
-			(project "battery_board_v2b"
-				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -29018,7 +28656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 537.5148 208.28 0)
 			(effects
 				(font
@@ -30166,7 +29804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 419.4048 208.28 0)
 			(effects
 				(font
@@ -33803,75 +33441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 518.16 223.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef49126e-353a-4f23-af19-5f8958129a5c")
-		(property "Reference" "R50"
-			(at 515.62 222.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k-Ohm"
-			(at 513.08 219.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 517.144 223.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 518.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 518.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd6eec1d-a3ca-44e9-a7f2-8a0951dab83c")
-		)
-		(pin "2"
-			(uuid "10c1e03c-8d77-4ce3-a2f0-8a2214cf10b0")
-		)
-		(instances
-			(project "battery_board_v2b"
-				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 62.23 95.25 0)
 		(unit 1)
@@ -34234,7 +33803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 414.274 207.264 90)
 			(effects
 				(font
@@ -34369,7 +33938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 413.766 216.916 90)
 			(effects
 				(font
