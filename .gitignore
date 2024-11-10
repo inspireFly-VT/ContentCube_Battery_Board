@@ -32,11 +32,4 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
+
