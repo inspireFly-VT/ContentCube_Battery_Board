@@ -516,7 +516,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing/",
-      "pos_files": "",
+      "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "../../../../../../Downloads/battery_board_v2_rev1.step",
       "svg": "",
