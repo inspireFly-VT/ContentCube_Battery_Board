@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-02-02_21-18-17")(type "KiCad")(uri "${KIPRJMOD}/Footprints/TPS62133RGTR/2025-02-02_21-18-17.kicad_sym")(options "")(descr ""))
+  (lib (name "Battery_Board")(type "KiCad")(uri "${KIPRJMOD}/Footprints/TPSM84209RKHT/Battery_Board.kicad_sym")(options "")(descr ""))
+)

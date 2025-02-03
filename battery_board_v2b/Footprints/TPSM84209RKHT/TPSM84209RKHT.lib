@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TPSM84209RKHT
+#/1212660/1405384/2.50/9/4/Integrated Circuit
+DEF TPSM84209RKHT IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "TPSM84209RKHT" 1050 500 50 H V L CNN
+F2 "TPSM84209RKHT" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tpsm84209" 1050 300 50 H I L CNN
+F4 "4.5-V to 28-V input, 1.2-V to 6-V output, 2.5-A power module" 1050 200 50 H I L CNN "Description"
+F5 "2.1" 1050 100 50 H I L CNN "Height"
+F6 "595-TPSM84209RKHT" 1050 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPSM84209RKHT?qs=rrS6PyfT74fnmFkKpetMQQ%3D%3D" 1050 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -200 50 H I L CNN "Manufacturer_Name"
+F9 "TPSM84209RKHT" 1050 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X FB 1 1200 -200 200 L 50 50 0 0 P
+X VIN 2 600 600 200 D 50 50 0 0 P
+X VOUT 3 1200 0 200 L 50 50 0 0 P
+X SW_1 4 1200 -300 200 L 50 50 0 0 P
+X SW_2 5 1200 -400 200 L 50 50 0 0 P
+X DNC_1 6 0 -200 200 R 50 50 0 0 P
+X DNC_2 7 0 -300 200 R 50 50 0 0 P
+X GND 8 600 -1000 200 U 50 50 0 0 P
+X EN 9 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library
