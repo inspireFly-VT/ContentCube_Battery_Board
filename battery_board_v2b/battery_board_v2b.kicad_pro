@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing/",
+      "plot": "Manufacturing/battery_board_v2b-Gerber/",
       "pos_files": "Manufacturing/",
       "specctra_dsn": "",
       "step": "../../../../../../Downloads/battery_board_v2_rev1.step",

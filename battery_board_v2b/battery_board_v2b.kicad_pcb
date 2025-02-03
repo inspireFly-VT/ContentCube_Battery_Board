@@ -139,7 +139,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Manufacturing/")
+			(outputdirectory "Manufacturing/battery_board_v2b-Gerber/")
 		)
 	)
 	(net 0 "")
