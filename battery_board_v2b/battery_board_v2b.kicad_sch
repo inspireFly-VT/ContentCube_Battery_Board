@@ -11593,6 +11593,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 219.71) (xy 96.52 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354b6009-858b-45b9-80df-e12bf4714ad5")
+	)
+	(wire
+		(pts
 			(xy 524.51 134.62) (xy 525.78 134.62)
 		)
 		(stroke
@@ -11890,6 +11900,16 @@
 			(type default)
 		)
 		(uuid "3f5c1648-2e79-4b17-b0ab-4de0e9f0f8a7")
+	)
+	(wire
+		(pts
+			(xy 96.52 219.71) (xy 96.52 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40012f0c-e2c7-447f-82dd-28fc16f1b805")
 	)
 	(wire
 		(pts
@@ -16015,6 +16035,7 @@
 	)
 	(label "VDD"
 		(at 90.424 332.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -16025,6 +16046,7 @@
 	)
 	(label "VBURN2"
 		(at 273.05 386.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16035,6 +16057,7 @@
 	)
 	(label "VBURN1"
 		(at 273.05 359.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16045,6 +16068,7 @@
 	)
 	(label "3V3_EN"
 		(at 123.19 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17691,28 +17715,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B-"
-		(shape input)
-		(at 92.71 219.71 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9984f736-4eb0-4525-9d22-1aae65698139")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 213.8824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -28700,6 +28702,72 @@
 			(project "battery_board_v2b"
 				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25b4838-f9a1-4fbd-bb5a-fb122403e7f9")
+		(property "Reference" "#PWR015"
+			(at 96.52 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d986f4-0cc6-47bf-8a46-8c09d8578ea2")
+		)
+		(instances
+			(project "battery_board_v2b"
+				(path "/72946c1b-39de-434d-93c8-4c1df6a46ed0"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
